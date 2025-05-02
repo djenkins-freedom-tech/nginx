@@ -1,0 +1,2 @@
+# Exclude the "z_ignore_me" directory
+z_ignore_me/*/*/*/*/*
