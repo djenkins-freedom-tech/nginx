@@ -19,3 +19,11 @@ spec:
           image: nginx:latest
           ports:
             - containerPort: 80
+        readinessProbe:
+        httpGet:
+          path: /non-existent
+          port: 80
+        initialDelaySeconds: 5
+        periodSeconds: 5
+        failureThreshold: 1
+
