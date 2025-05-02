@@ -1,6 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  annotations:
+    notifications.argoproj.io/subscribe.on-degraded.webhook: powerautomate
   name: nginx
   labels:
     app: nginx
