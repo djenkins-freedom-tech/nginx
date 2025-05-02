@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   annotations:
-    notifications.argoproj.io/subscribe.on-degraded.powerautomate: true
+    notifications.argoproj.io/subscribe.on-degraded.powerautomate: "true"
   name: nginx-app
   namespace: argocd
 spec:
