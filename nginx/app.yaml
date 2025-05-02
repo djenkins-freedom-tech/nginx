@@ -6,6 +6,7 @@ metadata:
 spec:
   project: default
 
+
   source:
     repoURL: https://github.com/djenkins-freedom-tech/nginx.git
     targetRevision: HEAD
