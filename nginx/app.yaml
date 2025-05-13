@@ -4,7 +4,7 @@ metadata:
   annotations:
     notifications.argoproj.io/subscribe.on-degraded.powerautomate: "true"
     notifications.argoproj.io/subscribe.on-sync-succeeded.powerautomate: "true"
-  name: nginx-app
+  name: nginx-test-app
   namespace: argocd
 spec:
   project: default
