@@ -3,7 +3,6 @@ kind: Application
 metadata:
   annotations:
     notifications.argoproj.io/subscribe.on-degraded.powerautomate: "true"
-    notifications.argoproj.io/subscribe.on-sync-succeeded.powerautomate: "true"
     notifications.argoproj.io/subscribe.on-unknown.powerautomate: "true"
   name: nginx-app
   namespace: argocd
